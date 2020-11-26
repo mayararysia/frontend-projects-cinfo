@@ -6,6 +6,7 @@ import { ProjectCrudComponent } from './views/project-crud/project-crud.componen
 import { ProjectCreateComponent } from './components/project/project-create/project-create.component';
 import { ProjectUpdateComponent } from './components/project/project-update/project-update.component';
 import { ProjectDeleteComponent } from './components/project/project-delete/project-delete.component';
+import { ProjectInfoComponent } from './components/project/project-info/project-info.component';
 
 
 const routes: Routes = [
@@ -28,6 +29,10 @@ const routes: Routes = [
    {
      path: "projects/delete/:id",
      component: ProjectDeleteComponent
+   },
+   {
+     path: "projects/info/:id",
+     component: ProjectInfoComponent
    }
 ];
 

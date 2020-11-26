@@ -31,6 +31,7 @@ import { ProjectRead2Component } from './components/project/project-read2/projec
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { ProjectInfoComponent } from './components/project/project-info/project-info.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { MatSortModule } from '@angular/material/sort';
     ProjectUpdateComponent,
     ProjectDeleteComponent,
     ProjectReadComponent,
-    ProjectRead2Component
+    ProjectRead2Component,
+    ProjectInfoComponent
   ],
   imports: [
     BrowserModule,

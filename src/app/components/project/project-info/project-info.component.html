@@ -1,13 +1,13 @@
 <mat-card>
-    <mat-card-title>Excluir Projeto</mat-card-title>
+    <mat-card-title>Informações</mat-card-title>
     <form>
         <mat-form-field>
             <textarea matInput placeholder="Projeto" 
             [value]="project.name" name="name" disabled></textarea>
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Descrição" 
-            [value]="project.description" name="description" disabled>
+            <textarea matInput placeholder="Descrição" 
+            [value]="project.description" name="description" disabled></textarea>
         </mat-form-field>
         <mat-form-field>
             <input matInput placeholder="Professor(a) Responsável" 
@@ -27,11 +27,7 @@
         </mat-form-field>
     </form>
 
-    <button mat-raised-button (click)="deleteProject()" color="warn">
-        Excluir
-    </button>
-    
-    <button mat-raised-button (click)="cancel()">
-        Cancelar
+    <button mat-raised-button (click)="cancel()" color="warn">
+        Voltar
     </button>
 </mat-card>

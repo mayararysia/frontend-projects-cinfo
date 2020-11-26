@@ -2,12 +2,12 @@
     <mat-card-title>Alterar Projeto</mat-card-title>
     <form>
         <mat-form-field>
-            <input matInput placeholder="Projeto" maxlength="150"
-            [(ngModel)]="project.name" name="name">
+            <textarea matInput placeholder="Projeto" maxlength="150"
+            [(ngModel)]="project.name" name="name"></textarea>
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Descrição" maxlength="255"
-            [(ngModel)]="project.description" name="description">
+            <textarea matInput placeholder="Descrição" maxlength="255"
+            [(ngModel)]="project.description" name="description"></textarea>
         </mat-form-field>
         <mat-form-field>
             <input matInput placeholder="Professor(a) Responsável" maxlength="50"

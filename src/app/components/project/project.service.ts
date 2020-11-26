@@ -10,7 +10,7 @@ import { Project } from './project.model';
 })
 export class ProjectService {
 
-  baseUrl = "http://localhost:3000/projects";
+  baseUrl = "https://backend-projects-cinfo.herokuapp.com/projects";
 
   constructor(
     private snackBar: MatSnackBar,
