@@ -1,0 +1,37 @@
+<mat-card>
+    <mat-card-title>Alterar Projeto</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Projeto" maxlength="150"
+            [(ngModel)]="project.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Descrição" maxlength="255"
+            [(ngModel)]="project.description" name="description">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Professor(a) Responsável" maxlength="50"
+            [(ngModel)]="project.professor" name="professor">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Aluno/a(s)" maxlength="150"
+            [(ngModel)]="project.students" name="students">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Período" maxlength="9"
+            [(ngModel)]="project.period" name="period">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Status" maxlength="12"
+            [(ngModel)]="project.status" name="status">
+        </mat-form-field>
+    </form>
+
+    <button mat-raised-button (click)="updateProject()" color="accent">
+        Atualizar
+    </button>
+    
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>
