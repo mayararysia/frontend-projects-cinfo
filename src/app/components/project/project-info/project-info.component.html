@@ -1,0 +1,33 @@
+<mat-card>
+    <mat-card-title>Informações</mat-card-title>
+    <form>
+        <mat-form-field>
+            <textarea matInput placeholder="Projeto" 
+            [value]="project.name" name="name" disabled></textarea>
+        </mat-form-field>
+        <mat-form-field>
+            <textarea matInput placeholder="Descrição" 
+            [value]="project.description" name="description" disabled></textarea>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Professor(a) Responsável" 
+            [value]="project.professor" name="professor" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Aluno/a(s)" 
+           [value]="project.students" name="students" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Período" 
+            [value]="project.period" name="period" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Status"
+            [value]="project.status" name="status" disabled>
+        </mat-form-field>
+    </form>
+
+    <button mat-raised-button (click)="cancel()" color="warn">
+        Voltar
+    </button>
+</mat-card>
