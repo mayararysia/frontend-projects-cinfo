@@ -4,7 +4,13 @@
 
 -  frontend project for the discipline of Introduction to Web Technologies - BSI IFAL
 
-- **This project is a CRUD**
+- **This project is a CRUD** - But in this version for heroku, the functionality to **create, edit and delete are disabled.**
+
+- * The heroku branch contains data that may be out of date. If you are a student of the course and are interested in a project, look for the responsible teacher to check the status of the project.
+
+## [CLOUD DEPLOYMENT](https://frontend-projects-cinfo.herokuapp.com/)
+
+![executando](gifs/frontendgif.gif)
 
 ## Backend Server
 
