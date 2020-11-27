@@ -10,7 +10,7 @@
 
 ## [CLOUD DEPLOYMENT](https://frontend-projects-cinfo.herokuapp.com/)
 
-![executando](https://raw.githubusercontent.com/mayararysia/frontend-projects-cinfo/tree/heroku/gifs/frontendgif.gif)
+![executando](gifs/frontendgif.gif)
 
 ## Backend Server
 
