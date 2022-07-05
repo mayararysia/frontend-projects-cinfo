@@ -8,8 +8,6 @@
 
 - * The heroku branch contains data that may be out of date. If you are a student of the course and are interested in a project, look for the responsible teacher to check the status of the project.
 
-## [CLOUD DEPLOYMENT](https://frontend-projects-cinfo.herokuapp.com/)
-
 ![executando](gifs/frontendgif.gif)
 
 ## Backend Server
